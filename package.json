@@ -1,0 +1,23 @@
+{
+  "name": "quentinbardy_3_22042021",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "sass": "^1.32.13"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Bardinho/QuentinBardy_3_22042021.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Bardinho/QuentinBardy_3_22042021/issues"
+  },
+  "homepage": "https://github.com/Bardinho/QuentinBardy_3_22042021#readme"
+}
