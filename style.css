@@ -44,14 +44,14 @@ body, html {
     transform: scaleY(1.8);
   }
 }
-@keyframes rotate {
+/* @keyframes rotate {
   from {
     -webkit-transform: rotate(0deg);
   }
   to {
     -webkit-transform: rotate(360deg);
   }
-}
+} */
 @keyframes loader {
   0% {
     opacity: 1;
@@ -63,14 +63,14 @@ body, html {
     opacity: 0;
   }
 }
-@keyframes fadein {
+/* @keyframes fadein {
   from {
     opacity: 0;
   }
   to {
     opacity: 1;
   }
-}
+} */
 @keyframes fill {
   0% {
     opacity: 0;
@@ -296,7 +296,7 @@ footer ul .fa-hands-helping {
   animation: rotate 1s linear infinite;
 }
 
-.loader__food span:nth-child(1) {
+/* .loader__food span:nth-child(1) {
   animation: grow 1s ease-in-out infinite;
 }
 
@@ -326,7 +326,7 @@ footer ul .fa-hands-helping {
 
 .loader__food span:nth-child(8) {
   animation: grow 1s ease-in-out 0.15s infinite;
-}
+} */
 
 .main__menu {
   background-color: #f6f6f6;
