@@ -34,7 +34,7 @@ body, html {
   font-family: "Roboto", sans-serif;
 }
 
-@keyframes grow {
+/* @keyframes grow {
   0%, 100% {
     -webkit-transform: scaleY(1);
     transform: scaleY(1);
@@ -43,7 +43,7 @@ body, html {
     -webkit-transform: scaleY(1.8);
     transform: scaleY(1.8);
   }
-}
+} */
 /* @keyframes rotate {
   from {
     -webkit-transform: rotate(0deg);
@@ -52,7 +52,7 @@ body, html {
     -webkit-transform: rotate(360deg);
   }
 } */
-@keyframes loader {
+/* @keyframes loader {
   0% {
     opacity: 1;
   }
@@ -62,7 +62,7 @@ body, html {
   100% {
     opacity: 0;
   }
-}
+} */
 /* @keyframes fadein {
   from {
     opacity: 0;
@@ -71,7 +71,7 @@ body, html {
     opacity: 1;
   }
 } */
-@keyframes fill {
+/* @keyframes fill {
   0% {
     opacity: 0;
   }
@@ -81,7 +81,7 @@ body, html {
   100% {
     opacity: 1;
   }
-}
+} */
 .main__header h1 {
   text-align: center;
 }
@@ -245,7 +245,7 @@ footer ul .fa-hands-helping {
   font-size: 1.5rem;
 }
 
-.loader {
+/* .loader {
   background: -webkit-linear-gradient(#FFFFFF, #99E2D0, #FF79DA, #9356DC);
   width: 100%;
   height: 100%;
@@ -260,7 +260,7 @@ footer ul .fa-hands-helping {
   left: 0;
   pointer-events: none;
   animation: loader 1s ease-in-out 3s forwards;
-}
+} */
 
 .loader__food {
   vertical-align: middle;
@@ -281,7 +281,7 @@ footer ul .fa-hands-helping {
   }
 }
 
-.loader__food span {
+/* .loader__food span {
   display: inline-block;
   width: 5px;
   height: 20px;
@@ -294,7 +294,7 @@ footer ul .fa-hands-helping {
   top: 50%;
   left: 50%;
   animation: rotate 1s linear infinite;
-}
+} */
 
 /* .loader__food span:nth-child(1) {
   animation: grow 1s ease-in-out infinite;
@@ -448,7 +448,7 @@ footer ul .fa-hands-helping {
   color: black;
   cursor: pointer;
 }
-.fill:hover {
+/* .fill:hover {
   animation: fill 0.3s ease-in-out;
   display: inline-block;
   opacity: 1;
@@ -457,7 +457,7 @@ footer ul .fa-hands-helping {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-weight: bold;
-}
+} */
 
 .header__img img {
   object-fit: cover;
