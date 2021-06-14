@@ -387,8 +387,8 @@ footer ul .fa-hands-helping {
   padding: 20px;
   right: -50px;
   top: 0;
-  opacity: 0;
-  transition: transform 330ms ease-in-out;
+  transition: right 330ms ease-in-out;
+  /* transition: transform 330ms ease-in-out; */
 }
 .cross .fa-check-circle {
   color: #fff;
@@ -450,9 +450,10 @@ footer ul .fa-hands-helping {
 .fill {
   color: black;
   cursor: pointer;
+  
 }
 .fill:hover {
-  animation: fill 0.3s ease-in-out;
+  animation: fill 1s ease-in-out;
   display: inline-block;
   opacity: 1;
   background: linear-gradient(to left, #9356dc, #b35cdc, #cf64dc, #e86edb, #ff79da);
@@ -460,6 +461,7 @@ footer ul .fa-hands-helping {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-weight: bold;
+  
 } 
 
 .header__img img {
@@ -509,8 +511,7 @@ footer ul .fa-hands-helping {
   padding-right: 75px;
 }
 .meals:hover .cross {
-  opacity: 1;
-  transform: translate(-50px);
+  right:0;
 }
 .meals:hover .fa-check-circle {
   transform: rotate(360deg);
@@ -636,3 +637,6 @@ footer ul .fa-hands-helping {
   margin-left: 20px;
 }
 
+ul {
+  padding: 0px;
+}
