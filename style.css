@@ -290,7 +290,7 @@ footer ul .fa-hands-helping {
   padding-right: 1em;
 } 
 
-.loader__fork {
+.loaderBurger {
   vertical-align: middle;
   position: absolute;
   top: 50%;
@@ -409,7 +409,7 @@ footer ul .fa-hands-helping {
   box-shadow: inset 0px 5px 5px 0px #dddddd;
 }
 
-.maps__search input {
+.mapsSearch input {
   border: none;
   background: #eaeaea;
   font-size: 1rem;
@@ -419,7 +419,7 @@ footer ul .fa-hands-helping {
   width: 150px;
 }
 
-.btn__about button {
+.boutonExplore button {
   background-image: linear-gradient(to top, #9356dc, #b35cdc, #cf64dc, #e86edb, #ff79da);
   border: 0px solid transparent;
   border-radius: 30px;
@@ -429,7 +429,7 @@ footer ul .fa-hands-helping {
   box-shadow: 4px 4px 6px #aaa;
   cursor: pointer;
 }
-.btn__about button:hover {
+.boutonExplore button:hover {
   background-color: #ae80e5;
   background-blend-mode: lighten;
   box-shadow: 4px 4px 6px #000;
@@ -639,4 +639,14 @@ footer ul .fa-hands-helping {
 
 ul {
   padding: 0px;
+}
+.delay-1{
+  animation-delay: .1s;
+
+}
+.delay-2{
+  animation-delay: .2s;
+}
+.delay-3{
+  animation-delay: .3s;
 }
