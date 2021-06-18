@@ -640,13 +640,25 @@ footer ul .fa-hands-helping {
 ul {
   padding: 0px;
 }
-.delay-1{
-  animation-delay: .1s;
 
+.delay-1{
+  animation: 3s 0ms forwards mealAnimation;
+  opacity: 0;
 }
 .delay-2{
-  animation-delay: .2s;
+  animation: 3s 250ms forwards mealAnimation;
+  opacity: 0;
 }
 .delay-3{
-  animation-delay: .3s;
+  animation: 3s 500ms forwards mealAnimation;
+  opacity: 0;
+}
+
+@keyframes mealAnimation{
+  from {
+    opacity: 0;
+  }
+  to{
+    opacity: 1;
+  }
 }
