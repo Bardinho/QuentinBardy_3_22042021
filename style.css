@@ -63,14 +63,7 @@ body, html {
     opacity: 0;
   }
 } 
-/@keyframes fadein {
-  from {
-    opacity: 0;
-  }
-  to {
-    opacity: 1;
-  }
-} 
+
 
 
 @keyframes fill {
@@ -346,28 +339,21 @@ footer ul .fa-hands-helping {
   }
 }
 
-.starter {
-  animation: fadein 3s ease-in-out;
-  
-}
+
 @media screen and (min-width: 1280px) {
   .starter {
     width: 400px;
   }
 }
 
-.dish {
-  animation: fadein 6s ease-in-out;
-}
+
 @media screen and (min-width: 1280px) {
   .dish {
     width: 400px;
   }
 }
 
-.dessert {
-  animation: fadein 9s ease-in-out;
-}
+
 @media screen and (min-width: 1280px) {
   .dessert {
     width: 400px;
@@ -388,7 +374,7 @@ footer ul .fa-hands-helping {
   right: -50px;
   top: 0;
   transition: right 330ms ease-in-out;
-  /* transition: transform 330ms ease-in-out; */
+  
 }
 .cross .fa-check-circle {
   color: #fff;
@@ -585,7 +571,7 @@ footer ul .fa-hands-helping {
 .operation h2 {
   padding: 20px;
 }
-@media screen and (min-width: 1440px) {
+@media screen and (min-width: 1280px) {
   .operation h2 {
     text-align: center;
   }
